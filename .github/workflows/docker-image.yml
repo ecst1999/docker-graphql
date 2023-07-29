@@ -32,7 +32,7 @@ jobs:
 
     - name: Push Docker Image
       run: | 
-        docker push -t ecst1999/docker-graphql:1.0.2
+        docker push ecst1999/docker-graphql:1.0.2
 
     # - name: Build the Docker image
     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
